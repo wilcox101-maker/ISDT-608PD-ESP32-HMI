@@ -4,6 +4,16 @@ Single-firmware PlatformIO project for the **LCDWIKI ES3N28P / ES3C28P** (ESP32-
 
 Replicates the native ISDT 608PD display style with LVGL, adds full HMI navigation, a hidden-style System Settings screen, opcode logging, and a WebUI mirror.
 
+## Product Reference
+
+![ISDT 608PD Product](docs/images/isdt_608pd_product.jpg)
+
+![ISDT 608PD Specs](docs/images/isdt_608pd_specs.png)
+
+## HMI Status Screen Mockup
+
+![Generated HMI Status Screen](docs/images/hmi_status_screen.jpg)
+
 ## Features
 - BLE client for ISDT 608PD (bind + Electric/WorkState polling)
 - LVGL HMI with 608PD-style colored Status screen
