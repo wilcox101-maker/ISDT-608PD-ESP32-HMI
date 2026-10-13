@@ -35,6 +35,9 @@ Replicates the native ISDT 608PD display style with LVGL, adds full HMI navigati
 
 Board: ES3N28P (no touch) or ES3C28P (with touch). Rotation is landscape (320×240).
 
+**Note:** The GPIO map above is only for PlatformIO / TFT_eSPI to know which internal pins the ESP32-S3 uses to talk to the on-board ILI9341. The LCD is already part of the ES3N28P/ES3C28P board — this project does not require any external wiring or interface for the display.
+
+
 ## LVGL Visuals
 The Status screen uses color coding matching the 608PD:
 - Yellow: chemistry (LiPo)
